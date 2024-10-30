@@ -14,7 +14,7 @@ dotenv.config();
 const PORT = process.env.PORT || 5000;
 
 app.get("/", (req, res) => {
-  res.send("Deployment was successfully!");
+  res.send("Hello Backend! Today 30.10.2024");
 });
 
 app.post("/api/submit", async (req, res) => {
